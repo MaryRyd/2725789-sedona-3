@@ -2,7 +2,7 @@
 
 * Студент: [Марина Шевченко](https://up.htmlacademy.ru/htmlcss-individual/3/user/2725789).
 * Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273).
-
+* Сайт: [Мой проект Сидона](https://maryryd.github.io/2725789-sedona-3/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
