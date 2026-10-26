@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Марина Шевченко](https://up.htmlacademy.ru/htmlcss-individual/3/user/2725789).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273).
 
 ---
 
