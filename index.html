@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,12 @@
   <body>
     <header class="main-header">
       <nav class="site-navigation">
-        <a class="logo-link" href="#">
+        <a class="logo-link" href="index.html" aria-current="page">
           <img src="img/logo.png" alt="Логотип">
         </a>
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="nav-list-link-current" href="index.html">Главная</a>
+            <a class="nav-list-link-current" href="index.html" aria-current="page">Главная</a>
           </li>
           <li class="nav-list-item">
             <a class="nav-list-link" href="about.html">О Седоне</a>
@@ -31,7 +32,7 @@
           </li>
           <li class="nav-list-item">
             <a class="nav-list-link" href="selected.html">
-              <span class="visually-hidden">Избранное</span>
+              <span class="visually-hidden">Избранное и количество гостиниц в избранном</span>
               <span class="selected-number">12</span>
             </a>
           </li>
@@ -54,6 +55,7 @@
           <li class="advantages-list-item-dark">
             <h3 class="advantages-title-dark">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img class="sedona-street" src="#" alt="На улицах Седоны">
           </li>
           <li class="advantages-list-item-light">
             <h3 class="advantages-title">Небольшая площадь</h3>
@@ -68,6 +70,7 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-list-item-dark">
+            <img class="devil-bridge" src="#" alt="Мост Дьявола">
             <h3 class="advantages-title-dark">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -95,8 +98,9 @@
       <section class="search">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
         <p class="claiming">Заинтересовались?</p>
-        <p class="claiming-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="catalon-link" href="catalog.html">Поиск гостиницы в Седоне</a>
+        <p class="claiming-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+          гостиниц в Седоне</p>
+        <button class="button search-button" type="button">Поиск гостиницы в Седоне</button>
       </section>
     </main>
     <footer class="main-footer">
@@ -137,4 +141,5 @@
       </section>
     </footer>
   </body>
+
 </html>
