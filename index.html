@@ -7,15 +7,15 @@
     <title>HTML Academy: Седона</title>
   </head>
 
-  <body>
+  <body class="index-body">
     <header class="main-header">
       <nav class="site-navigation">
         <a class="logo-link" href="index.html" aria-current="page">
-          <img src="img/logo.png" alt="Логотип">
+          <img src="./img/images/logo.svg" alt="Логотип Седоны" width="140" height="70">
         </a>
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="nav-list-link-current" href="index.html" aria-current="page">Главная</a>
+            <a class="nav-list-link nav-list-link-current" href="index.html" aria-current="page">Главная</a>
           </li>
           <li class="nav-list-item">
             <a class="nav-list-link" href="about.html">О Седоне</a>
@@ -42,10 +42,11 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="index-main">
       <section class="hero">
         <h1 class="visually-hidden">Седона - отдых на природе</h1>
-        <img src="img/welcome.svg" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img src="./img/images/welcome.svg" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!"
+          width="458" height="352">
       </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
@@ -55,7 +56,8 @@
           <li class="advantages-list-item-dark">
             <h3 class="advantages-title-dark">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="sedona-street" src="#" alt="На улицах Седоны">
+            <img class="sedona-street" src="./img/images/photo-1.jpg" alt="На улицах Седоны: ресторан и цветы"
+              width="800" height="385">
           </li>
           <li class="advantages-list-item-light">
             <h3 class="advantages-title">Небольшая площадь</h3>
@@ -70,7 +72,7 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-list-item-dark">
-            <img class="devil-bridge" src="#" alt="Мост Дьявола">
+            <img class="devil-bridge" src="./img/images/photo-2.jpg" alt="Мост Дьявола" width="800" height="385">
             <h3 class="advantages-title-dark">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -135,11 +137,13 @@
               <span class="visually-hidden">Youtube</span>
             </a>
           </li>
+
         </ul>
         <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="academy-link" href="https://htmlacademy.ru/">.html academy</a>
+        <a class="academy-link" href="https://htmlacademy.ru/">
+          <img src="./img/images/html-academy-logo.svg" alt="Логотип разработчика HTML Academy" width="115" height="33">
+        </a>
       </section>
     </footer>
   </body>
-
 </html>
