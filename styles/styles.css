@@ -43,17 +43,20 @@ body {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+
 }
 
 .site-navigation {
     display: flex;
     margin: 0 auto;
     width: 1200px;
+
 }
 
 .logo-link {
-    display: block;
+    display: inline-block;
     margin-left: 70px;
+    margin-bottom: 0;
 }
 
 .nav-list {
@@ -408,7 +411,7 @@ body {
     background-color: #ddeaf2;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 35px 0 10px 70px;
+    padding: 35px 70px 70px 70px;
     color: #ffffff;
 }
 
@@ -441,6 +444,7 @@ body {
 
 .catalog-filter {
     display: flex;
+    justify-content: space-between;
 }
 
 .catalog-filter-group {
@@ -472,6 +476,16 @@ body {
 
 .control-input {}
 
+.price-filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-filter-forms {
+    display: flex;
+    flex-direction:row;
+}
+
 .filter-from {
     margin: 0;
     padding: 0;
@@ -480,6 +494,11 @@ body {
 .filter-to {
     margin: 0;
     padding: 0;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-direction: column;
 }
 
 .button-submit {
